@@ -1,0 +1,12 @@
+# SD card config (contains WiFi credentials - do NOT commit)
+firmware/data/config.json
+config.json
+
+# PlatformIO build artifacts
+firmware/.pio/
+firmware/.pioenvs/
+firmware/.clang_format
+
+# IDE
+.vscode/
+.idea/

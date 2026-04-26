@@ -1,0 +1,6 @@
+{
+  "wifi_ssid": "YOUR_WIFI_SSID",
+  "wifi_password": "YOUR_WIFI_PASSWORD",
+  "server_base_url": "https://qnaiv.github.io/m5paper-favimagegallary/",
+  "update_interval_sec": 3600
+}
