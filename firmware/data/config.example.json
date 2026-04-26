@@ -1,0 +1,6 @@
+{
+  "wifi_ssid": "YOUR_WIFI_SSID",
+  "wifi_password": "YOUR_WIFI_PASSWORD",
+  "manifest_url": "https://<username>.github.io/m5paper-favimagegallary/manifest.json",
+  "update_interval_sec": 3600
+}

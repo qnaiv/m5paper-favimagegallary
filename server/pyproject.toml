@@ -1,0 +1,28 @@
+[project]
+name = "m5paper-favimagegallary-server"
+version = "0.1.0"
+description = "Server-side scraper and image processor for m5paper-favimagegallary"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.40.0",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
